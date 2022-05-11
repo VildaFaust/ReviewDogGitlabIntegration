@@ -1,0 +1,16 @@
+APPLY_FIXES: none 
+ENABLE:
+  - YAML
+ENABLE_LINTERS:
+  - YAML_V8R
+DISABLE_LINTERS:
+  - YAML_PRETTIER
+  - YAML_YAMLLINT
+SHOW_ELAPSED_TIME: true
+FILEIO_REPORTER: false
+YAML_YAMLLINT_FILTER_REGEX_EXCLUDE: '(templates/\.mega-linter\.yml)'
+YAML_PRETTIER_FILTER_REGEX_EXCLUDE: '(templates/\.mega-linter\.yml|mkdocs\.yml)'
+YAML_V8R_FILTER_REGEX_EXCLUDE: '(descriptors|templates/\.mega-linter\.yml|\.codecov\.yml)'
+EMAIL_REPORTER_EMAIL: vildafaust@gmail.com
+YAML_V8R_FILE_EXTENSIONS:
+  - ".meta"
