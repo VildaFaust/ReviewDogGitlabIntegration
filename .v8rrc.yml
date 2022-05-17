@@ -1,0 +1,11 @@
+patterns: ['*json', '*meta']
+verbose: 2
+ignoreErrors: true
+cacheTtl: 86400
+customCatalog:
+  schemas:
+    - name: Custom Schema
+      description: Custom Schema
+      fileMatch: ["*.geojson"]
+      location: geojson-schema.json
+      parser: json5
