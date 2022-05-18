@@ -3,7 +3,7 @@
   "title": "JSON Schema",
   "description": "linter, validate",
   "type": "object",
-  "additionalProperties": false,
+  "additionalProperties": true,
   "properties": {
     "guid_test": {
       "type": "object",
