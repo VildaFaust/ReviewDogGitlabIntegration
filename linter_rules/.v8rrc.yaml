@@ -1,6 +1,6 @@
 patterns: ['*json']
 verbose: 2
-ignoreErrors: true
+ignoreErrors: false
 cacheTtl: 86400
 customCatalog:
   schemas:
