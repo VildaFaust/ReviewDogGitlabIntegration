@@ -9,6 +9,7 @@ DISABLE_LINTERS:
 SHOW_ELAPSED_TIME: false
 FILEIO_REPORTER: false
 PRINT_ALPACA : false
+LINTER_RULES_PATH: linter_rules/
 SHOW_SKIPPED_LINTERS: false
 YAML_YAMLLINT_FILTER_REGEX_EXCLUDE: '(templates/\.mega-linter\.yml)'
 YAML_PRETTIER_FILTER_REGEX_EXCLUDE: '(templates/\.mega-linter\.yml|mkdocs\.yml)'
