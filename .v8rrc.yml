@@ -6,6 +6,5 @@ customCatalog:
   schemas:
     - name: Custom Schema
       description: Custom Schema
-      fileMatch: ["*.geojson"]
-      location: geojson-schema.json
+      location: schema.json
       parser: json5
