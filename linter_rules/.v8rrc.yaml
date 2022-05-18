@@ -1,4 +1,4 @@
-patterns: ['*.meta']
+patterns: ['*json']
 verbose: 2
 ignoreErrors: true
 cacheTtl: 86400
